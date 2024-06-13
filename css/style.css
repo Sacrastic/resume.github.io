@@ -1,0 +1,311 @@
+body
+{
+    background-color:#fff;
+    margin: 0px;
+}
+.row
+{
+    width:100%;
+}
+.col-50
+{
+    width:50%;
+    float: left;
+}
+.col-33
+{
+    width:33.3%;
+    float: left;
+}
+.c
+.col-5
+{
+    width:5%;
+    float: left;
+}
+.col-10
+{
+    width:10%;
+    float: left;
+}
+.col-15
+{
+    width:15%;
+    float: left;
+}
+.col-20
+{
+    width:20%;
+    float: left;
+}
+.col-25
+{
+    width:25%;
+    float: left;
+}
+.col-30
+{
+    width:30%;
+    float: left;
+}
+.col-35
+{
+    width:35%;
+    float: left;
+}
+.col-40
+{
+    width:40%;
+    float: left;
+}
+.col-45
+{
+    width:45%;
+    float: left;
+}
+.col-55
+{
+    width:55%;
+    float: left;
+}
+.col-60
+{
+    width:60%;
+    float: left;
+}
+.col-65
+{
+    width:65%;
+    float: left;
+}
+.col-70
+{
+    width:70%;
+    float: left;
+}
+.col-75
+{
+    width:75%;
+    float: left;
+}
+.col-80
+{
+    width:80%;
+    float: left;
+}
+.col-85
+{
+    width:85%;
+    float: left;
+}
+.col-90
+{
+    width:90%;
+    float: left;
+}
+.col-95
+{
+    width:95%;
+    float: left;
+}
+.col-100
+{
+    width:100%;
+    float: left;
+}
+.main
+{
+    width:100%;
+}
+.header
+{
+    height: 120px;
+    background-color:#fff;
+}
+.brand
+{
+    margin-top: 10px;
+}
+* Menu Dropdown */
+  .cf:before,
+  .cf:after {
+      content: " ";
+      display: table;
+  }
+
+  .cf:after {
+      clear: both;
+  }
+
+  .cf {
+      zoom: 1;
+  }
+
+  .menu,
+  .submenu {
+   margin: 0;
+   padding: 0;
+   list-style: none;
+  }
+
+  .menu {   
+   margin: 50px auto;
+   width: 800px;   
+   width: -moz-fit-content;
+   width: -webkit-fit-content;
+   width: fit-content; 
+  }
+
+  .menu > li {
+   background: rgb(83, 83, 155);
+   float: left;
+   position: relative;
+   transform: skewX(25deg);
+  }
+
+  .menu a {
+   display: block;
+   color: #fff;
+   text-transform: uppercase;
+   text-decoration: none;
+   font-family: Arial, Helvetica;
+   font-size: 14px;
+  }  
+
+  .menu li:hover {
+   background: #e74c3c;
+  }  
+
+  .menu > li > a {
+   transform: skewX(-25deg);
+   padding: 1em 2em;
+  }
+
+  /* Dropdown */
+  .submenu {
+   position: absolute;
+   width: 200px;
+   left: 50%; margin-left: -100px;
+   transform: skewX(-25deg);
+   transform-origin: left top;
+  }
+
+  .submenu li {
+   background-color: #34495e;
+   position: relative;
+   overflow: hidden;  
+  }      
+
+  .submenu > li > a {
+   padding: 1em 2em;   
+  }
+
+  .submenu > li::after {
+   content: '';
+   position: absolute;
+   top: -125%;
+   height: 100%;
+   width: 100%;   
+   box-shadow: 0 0 50px rgba(0, 0, 0, .9);   
+  }  
+
+  .submenu > li:nth-child(odd){
+   transform: skewX(-25deg) translateX(0);
+  }
+
+  .submenu > li:nth-child(odd) > a {
+   transform: skewX(25deg);
+  }
+
+  .submenu > li:nth-child(odd)::after {
+   right: -50%;
+   transform: skewX(-25deg) rotate(3deg);
+  }    
+
+  .submenu > li:nth-child(even){
+   transform: skewX(25deg) translateX(0);
+  }
+
+  .submenu > li:nth-child(even) > a {
+   transform: skewX(-25deg);
+  }
+
+  .submenu > li:nth-child(even)::after {
+   left: -50%;
+   transform: skewX(25deg) rotate(3deg);
+  }
+
+  /* Show dropdown */
+  .submenu,
+  .submenu li {
+   opacity: 0;
+   visibility: hidden;   
+  }
+
+  .submenu li {
+   transition: .2s ease transform;
+  }
+
+  .menu > li:hover .submenu,
+  .menu > li:hover .submenu li {
+   opacity: 1;
+   visibility: visible;
+  }  
+
+  .menu > li:hover .submenu li:nth-child(even){
+   transform: skewX(25deg) translateX(15px);   
+  }
+
+  .menu > li:hover .submenu li:nth-child(odd){
+   transform: skewX(-25deg) translateX(-15px);   
+  }
+.banner
+{
+    height: 400px;
+    background-color: #fff;
+}
+.content
+{
+    min-height: 450px;
+    background-color: #fff;
+    color: black;
+    
+}
+.content-body h2{
+    text-align: center;
+    font-size: 35px;
+    color: #34495e;
+
+}
+.content-body p{
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #111111;
+    font-style: italic;
+}
+.content-body
+
+{
+    margin: 15px;
+}
+
+.heading
+{
+    text-align: center;
+    font-size: 45px;
+    color:rgb(83, 83, 155);
+}
+.fa-facebook
+{
+    
+    padding: 2px;
+}
+.left-heading a{
+    text-decoration: none;
+    color: #111111;
+}
+.footer-body
+{
+    background-color: rgb(83, 83, 155);
+    margin-bottom: 0%;
+}
